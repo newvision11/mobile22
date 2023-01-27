@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Rileno Sans';
+    src: url('RilenoSans-ExtraBold.eot');
+    src: local('Rileno Sans ExtraBold'), local('RilenoSans-ExtraBold'),
+        url('RilenoSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('RilenoSans-ExtraBold.woff2') format('woff2'),
+        url('RilenoSans-ExtraBold.woff') format('woff'),
+        url('RilenoSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rileno Sans';
+    src: url('RilenoSans-RegularItalic.eot');
+    src: local('Rileno Sans Regular Italic'), local('RilenoSans-RegularItalic'),
+        url('RilenoSans-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('RilenoSans-RegularItalic.woff2') format('woff2'),
+        url('RilenoSans-RegularItalic.woff') format('woff'),
+        url('RilenoSans-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rileno Sans';
+    src: url('RilenoSans-Bold.eot');
+    src: local('Rileno Sans Bold'), local('RilenoSans-Bold'),
+        url('RilenoSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RilenoSans-Bold.woff2') format('woff2'),
+        url('RilenoSans-Bold.woff') format('woff'),
+        url('RilenoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rileno Sans';
+    src: url('RilenoSans-LightItalic.eot');
+    src: local('Rileno Sans Light Italic'), local('RilenoSans-LightItalic'),
+        url('RilenoSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('RilenoSans-LightItalic.woff2') format('woff2'),
+        url('RilenoSans-LightItalic.woff') format('woff'),
+        url('RilenoSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rileno Sans';
+    src: url('RilenoSans-BoldItalic.eot');
+    src: local('Rileno Sans Bold Italic'), local('RilenoSans-BoldItalic'),
+        url('RilenoSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RilenoSans-BoldItalic.woff2') format('woff2'),
+        url('RilenoSans-BoldItalic.woff') format('woff'),
+        url('RilenoSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rileno Sans';
+    src: url('RilenoSans-SemiBold.eot');
+    src: local('Rileno Sans SemiBold'), local('RilenoSans-SemiBold'),
+        url('RilenoSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('RilenoSans-SemiBold.woff2') format('woff2'),
+        url('RilenoSans-SemiBold.woff') format('woff'),
+        url('RilenoSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rileno Sans';
+    src: url('RilenoSans-SemiBoldItalic.eot');
+    src: local('Rileno Sans SemiBold Italic'), local('RilenoSans-SemiBoldItalic'),
+        url('RilenoSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RilenoSans-SemiBoldItalic.woff2') format('woff2'),
+        url('RilenoSans-SemiBoldItalic.woff') format('woff'),
+        url('RilenoSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rileno Sans';
+    src: url('RilenoSans-ExtraBoldItalic.eot');
+    src: local('Rileno Sans ExtraBold Italic'), local('RilenoSans-ExtraBoldItalic'),
+        url('RilenoSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RilenoSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('RilenoSans-ExtraBoldItalic.woff') format('woff'),
+        url('RilenoSans-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rileno Sans';
+    src: url('RilenoSans-MediumItalic.eot');
+    src: local('Rileno Sans Medium Italic'), local('RilenoSans-MediumItalic'),
+        url('RilenoSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('RilenoSans-MediumItalic.woff2') format('woff2'),
+        url('RilenoSans-MediumItalic.woff') format('woff'),
+        url('RilenoSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rileno Sans';
+    src: url('RilenoSans-Light.eot');
+    src: local('Rileno Sans Light'), local('RilenoSans-Light'),
+        url('RilenoSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('RilenoSans-Light.woff2') format('woff2'),
+        url('RilenoSans-Light.woff') format('woff'),
+        url('RilenoSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rileno Sans';
+    src: url('RilenoSans-Regular.eot');
+    src: local('Rileno Sans Regular'), local('RilenoSans-Regular'),
+        url('RilenoSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RilenoSans-Regular.woff2') format('woff2'),
+        url('RilenoSans-Regular.woff') format('woff'),
+        url('RilenoSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rileno Sans';
+    src: url('RilenoSans-Medium.eot');
+    src: local('Rileno Sans Medium'), local('RilenoSans-Medium'),
+        url('RilenoSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('RilenoSans-Medium.woff2') format('woff2'),
+        url('RilenoSans-Medium.woff') format('woff'),
+        url('RilenoSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
