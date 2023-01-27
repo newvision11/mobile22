@@ -11,7 +11,9 @@
 
 @font-face {
   font-family: 'Rileno Sans';
-  src: url(font-rileno/RilenoSans-ExtraBold.woff) format:("woff");
+  src: url(./font-rileno/RilenoSans-ExtraBold.woff) format:("woff");
+          url('RilenoSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('RilenoSans-ExtraBold.woff') format('woff'),
   font-weight: bolder;
   font-style: normal;
 
