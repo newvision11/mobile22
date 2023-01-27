@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'Rileno Sans';
-  src: url(./assets/font-rileno/RilenoSans-Bold.woff);
+  src: url(./assets/font-rileno/RilenoSans-Bold.woff) format:("woff");
   font-weight: bold;
   font-style: normal;
 
@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'Rileno Sans';
-  src: url(./assets/font-rileno/RilenoSans-ExtraBold.woff);
+  src: url(./assets/font-rileno/RilenoSans-ExtraBold.woff) format:("woff");
   font-weight: bolder;
   font-style: normal;
 
@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: 'Rileno Sans';
-  src: url(./assets/font-rileno/RilenoSans-Light.woff);
+  src: url(./assets/font-rileno/RilenoSans-Light.woff) format:("woff");
   font-weight: lighter;
   font-style: normal;
 
@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: 'Rileno Sans';
-  src: url(./assets/font-rileno/RilenoSans-Medium.woff);
+  src: url(./assets/font-rileno/RilenoSans-Medium.woff) format:("woff");
   font-weight: 600;
   font-style: normal;
 
@@ -35,7 +35,7 @@
 
 @font-face {
   font-family: 'Rileno Sans';
-  src: url(./assets/font-rileno/RilenoSans-Regular.woff);
+  src: url(./assets/font-rileno/RilenoSans-Regular.woff) format:("woff");
   font-weight: normal;
   font-style: normal;
 
@@ -43,7 +43,7 @@
 
 @font-face {
   font-family: 'Rileno Sans';
-  src: url(./assets/font-rileno/RilenoSans-SemiBold.woff);
+  src: url(./assets/font-rileno/RilenoSans-SemiBold.woff) format:("woff");
   font-weight: 700;
   font-style: normal;
 
