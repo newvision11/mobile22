@@ -8,14 +8,15 @@
   font-style: normal;
 
 }
-
 @font-face {
-  font-family: 'Rileno Sans';
-  src: url(./font-rileno/RilenoSans-ExtraBold.woff) format:("woff");
-          url('RilenoSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('RilenoSans-ExtraBold.woff') format('woff'),
-  font-weight: bolder;
-  font-style: normal;
+    font-family: 'Rileno Sans';
+    src: url('RilenoSans-ExtraBold.eot');
+    src: local('Rileno Sans ExtraBold'), local('RilenoSans-ExtraBold'),
+        url('RilenoSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('RilenoSans-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
 
 }
 
