@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: 'Rileno Sans';
-  src: url(./font-rileno/RilenoSans-Light.woff);
+  src: url(/font-rileno/RilenoSans-ExtraBold.woff);
   font-weight: normal;
   font-style: normal;
 
@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: 'Rileno Sans';
-  src: url(./font-rileno/RilenoSans-Medium.woff);
+  src: url(/font-rileno/RilenoSans-Medium.woff);
   font-weight: normal;
   font-style: normal;
 
@@ -36,7 +36,7 @@
 
 @font-face {
   font-family: 'Rileno Sans';
-  src: url(./font-rileno/RilenoSans-Regular.woff);
+  src: url(/font-rileno/RilenoSans-Regular.woff);
   font-weight: normal;
   font-style: normal;
 
@@ -44,11 +44,12 @@
 
 @font-face {
   font-family: 'Rileno Sans';
-  src: url(./font-rileno/RilenoSans-SemiBold.woff);
+  src: url(/font-rileno/RilenoSans-SemiBold.woff);
   font-weight: normal;
   font-style: normal;
 
 }
+
 html {
   font-family: "Rileno Sans";
 }
