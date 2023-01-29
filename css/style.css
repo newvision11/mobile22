@@ -1,7 +1,6 @@
 
 
 
-
 @font-face {
   font-family: 'Rileno Sans';
   src: url(./font-rileno/RilenoSans-Bold.woff);
@@ -49,6 +48,7 @@
   font-style: normal;
 
 }
+
 
 * {
   box-sizing: border-box;
@@ -617,24 +617,22 @@ body {
 @media (max-width: 702px) {
 
   body .proucts-images {
-    display: flex;
     flex-direction: column;
-    gap: 30px;
-    justify-content: center;
+    gap: 70px;
     align-items: center;
     margin-top: 100px;
     width: 100%;
   }
 
   body .fusion img {
-    max-width: 230px;
+    max-width: 240px;
     height: auto;
-    padding: 2px 0;
+    
 
   }
 
   body .style img {
-    max-width: 240px;
+    max-width: 210px;
     height: auto;
     padding: 2px 0;
 
@@ -1291,15 +1289,49 @@ body {
   font-weight: 700;
 }
 
-.part-1 {
+@media (max-width: 880px){
+  body .revendeur-text{
+    margin-top: 50px;
+  }
+  body .part-1-revendeur{
+    transform: scale(0.9);
+    gap: 20px;
+  }
+  body .part-2-revendeur{
+    transform: scale(0.9);
+    gap: 20px;
+
+  }
+  body .blue-line{
+    height: 250px;
+    width: 7px;
+  }
+  body .red-line{
+    height: 200px;
+    width: 7px;
+  }
+  body .question-text h1{
+    font-size: 20px;
+
+  }
+  body .line-under {
+    width: 90%;
+  }
+  body .main-info{
+    margin-top: 30px;
+  }
+}
+
+.part-1-revendeur {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 60px;
 }
 
 .paragraph-1 {
   width: 677px;
+
 }
 
 .paragraph-1 p {
@@ -1313,11 +1345,11 @@ body {
   background-color: #03b2e2;
 }
 
-.part-2 {
+.part-2-revendeur {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 60px;
   margin-top: 40px;
 }
 
@@ -1334,6 +1366,7 @@ body {
   width: 5px;
   height: 130px;
   background-color: #ff0000;
+  margin-left: 0;
 }
 
 
@@ -1794,7 +1827,7 @@ input[type="submit"]:hover {
 
 
 .part-1 {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1958,10 +1991,15 @@ input[type="submit"]:hover {
 
 
 
-
-
-
-
+@media (max-width: 880px) {
+  body .scroll-top {
+    color: white;
+    background-color: #0cb5e4;
+    padding: 14px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
 
 .scroll-top {
   position: fixed;
