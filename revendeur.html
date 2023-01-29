@@ -5,15 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Oufitters Senegal</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Fusion Bumper</title>
+    <link rel="stylesheet" href="css/style-skins.css">
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/6b5a69a0c3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="idk.js">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-    <link rel="stylesheet" href="css/revendeur.css">
-    <script src="path/to/your/script.js"></script>
+    <script src="https://kit.fontawesome.com/6b5a69a0c3.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function () {
@@ -29,18 +26,38 @@
                 return false;
             });
         });
-        $('.scroll-top').click(function(){
-    $('html, body').animate({scrollTop : 0},800);
-    return false;
-});
+        $('.scroll-top').click(function () {
+            $('html, body').animate({ scrollTop: 0 }, 800);
+            return false;
+        });
 
     </script>
 
 
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('.scroll-top').fadeIn();
+                } else {
+                    $('.scroll-top').fadeOut();
+                }
+            });
+            $('.scroll-top').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 800);
+                return false;
+            });
+        });
+        $('.scroll-top').click(function () {
+            $('html, body').animate({ scrollTop: 0 }, 800);
+            return false;
+        });
+
+    </script>
 </head>
 
-<body class="body2">
-
+<body>
     <header>
         <!--Navbar start-->
         <div class="navbar">
@@ -86,74 +103,222 @@
                 </a>
 
             </div>
-
         </div>
-
         </div>
     </header>
-    <!--Navbar end-->
 
-    <!--revendeur section-->
-    <section class="revendeur-text">
-        <h3>PARTENAIRES</h3>
-        <h1>MOBILE OUTFITTERS</h1>
-    </section>
-    <div class="line-under"></div>
-
-    <section class="question-text">
-        <h1>Vous avez déjà une boutique et souhaitez <br> intégrer l'offre Mobile Outfitters ?
-        </h1>
-    </section>
-
-    <section class="main-info">
-        <div class="part-1-revendeur">
-            <div class="blue-line"></div>
-            <div class="paragraph-1">
-                <p>Nous vous proposons de devenir propriétaire d'un kiosque ou de commercialiser nos produits premium et
-                    innovants dans votre commerce. Cette opportunité vous permettra de développer votre activité et de
-                    proposer de nouvelles offres à votre clientèle, tout en bénéficiant de notre expertise et de notre
-                    soutien
+    <section class="landing-page">
+        <div class="landing-container">
+            <div class="landing-text">
+                <h1>Prêt à changer de look?</h1>
+                <p>Votre appareil ne devrait pas non plus. Choisissez des skins de style qui reflètent votre vision du
+                    monde et changez-les aussi souvent que vous le souhaitez.
                 </p>
             </div>
         </div>
+    </section>
 
-        <div class="part-2-revendeur">
-            <div class="red-line"></div>
-            <div class="paragraph-2">
-                <p>Vous êtes un indépendant, vous avez un centre de réparation ou une chaîne de magasins, actif dans le
-                    monde des télécom, multimédia ou gaming, nous avons la solution adaptée à vos besoins.
-                </p>
-            </div>
-        </div>
-        <div class="revendeur-button-section">
-            <a href="https://forms.gle/xingA13YTkCEohqW7" target="_blank">
-                <button class="revendeur-button-2"> Devenir Revendeur</button>
-            </a>
-        </div>
-      
-        <!--Footer Section Start-->
+    <div class="style-intro-paragraph">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="scroll-top">
-            <i class="fas fa-arrow-up"></i>
+        <div class="style-intro-logo">
+            <img src="img/Style-Skins.png" alt="">
         </div>
 
-        
+        <div class="intro-text">
+            <p>Il a fallu 3 ans de recherche et de développement pour créer la meilleure protection d'écran jamais
+                produite. Le résultat est une feuille de fusion Clear-Coat spéciale basée sur la technologie brevetée
+                TriACTIVE ™ pour la protection contre les chocs, combinant 3 couches de polyuréthane qui rendent l'écran
+                de l'appareil jusqu'à 3 fois plus fort et résistant aux.
+            </p>
+        </div>
+    </div>
+
+
+    <section class="part-1">
+
+        <div class="ps5">
+            <img src="img/ps5-image-01.png" alt="">
+        </div>
+        <div class="ps5-text">
+            <h1>C'est votre monde. Stylisez-le tout.</h1>
+            <p>Des playstations aux tablettes en passant par les montres et plus encore, des skins de style peuvent être
+                créés pour s'adapter à plus de 2000 dispositifs différents... et ce nombre ne cesse de croître. Donnez à
+                tous vos objets un look intelligent et créez des thèmes sympas qui regroupent toute votre technologie,
+                ou optez pour un mélange avec une variété de styles distinctifs!
+            </p>
+        </div>
+
+    </section>
+
+
+    <section class="part-2">
+
+        <div class="headset-text">
+            <h1>Vous ne vous fondez pas dans la foule.</h1>
+            <p>Votre appareil ne devrait pas non plus. Choisissez des skins de style qui reflètent votre vision du monde et changez-les aussi souvent que vous le souhaitez.
+
+
+
+            </p>
+        </div>
+
+        <div class="headset">
+            <img src="img/headset-style-skins.jpg" alt="">
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="image-gallery">
+
+        <div class="image-container">
+            <img src="img/gallery/1.jpg" alt="image1">
+        </div>
+        <div class="image-container">
+            <img src="img/gallery/2.jpg" alt="image2">
+        </div>
+        <div class="image-container">
+            <img src="img/gallery/1.jpg" alt="image2">
+        </div>
+        <div class="image-container">
+            <img src="img/gallery/1.jpg" alt="image2">
+        </div>
+        <div class="image-container">
+            <img src="img/gallery/1.jpg" alt="image2">
+        </div>
+        <div class="image-container">
+            <img src="img/gallery/1.jpg" alt="image2">
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="life-time">
+        <div class="text-area">
+            <h4>EXCLUSIF</h4>
+            <h1>GARANTIE À VIE</h1>
+            <div class="blue-line-2"></div>
+            <h2> Tous nos produits bénéficient d’une garantie à vie immédiate et illimitée delà.</h2>
+            <h3>POSE OFFERTE SOUS 7 JOURS, FACTUREE</h3>
+            <h3><span class="valable">Valable chez tous nos distributeurs agrées</span> </h3>
+        </div>
+        <div class="button-area">
+            <div class="senegal-button"><a href="#"><button>Senegal</button></a></div>
+            <div class="international-button"><a href="#"><button>International</button></a></div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    
     <div class="preloader">
         <div class="loader"></div>
     </div>
@@ -165,75 +330,75 @@
         });
 
     </script>
-    <!-- footer starts -->
+<!-- footer starts -->
 
-    <footer class="footer-distributed">
+<footer class="footer-distributed">
 
-        <div class="footer-left">
+    <div class="footer-left">
 
-            <img src="img/logo.png" alt="">
+        <img src="img/logo.png" alt="">
 
-            <p class="footer-links">
+        <p class="footer-links">
 
-                <a href="original-matte.html">Clear-Coat</a>
+            <a href="original-matte.html">Clear-Coat</a>
 
-                <a href="fusion.html">Fusion</a>
+            <a href="fusion.html">Fusion</a>
 
-                <a href="style-skins.html">Style Skins</a>
-            </p>
+            <a href="style-skins.html">Style Skins</a>
+        </p>
 
-            <p class="footer-company-name">Mobile Outfitters © 2023 ┃ Designed by <a
-                    href="https://www.instagram.com/new_vision_g/">NewVision</a></p>
+        <p class="footer-company-name">Mobile Outfitters © 2023 ┃ Designed by <a
+                href="https://www.instagram.com/new_vision_g/">NewVision</a></p>
+    </div>
+
+    <div class="footer-center">
+
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p>Dakar, Senegal</p>
         </div>
 
-        <div class="footer-center">
-
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p>Dakar, Senegal</p>
-            </div>
-
-            <div class="phone-push">
-                <i class="fa fa-phone"></i>
-                <p>+221 33 825 00 83</p>
-            </div>
-
-            <div class="email-push">
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:mobilesenegal@gmail.com">mobilesenegal</a></p>
-            </div>
-
+        <div class="phone-push">
+            <i class="fa fa-phone"></i>
+            <p>+221 33 825 00 83</p>
         </div>
 
-        <div class="footer-right">
-
-            <p class="footer-company-about">
-                <a href="original-matte.html#life-time">Lifetime Replacements</a>
-            </p>
-
-            <p class="footer-company-about">
-                <a href="https://www.moutfitters.com/support/request-a-product/" target="_blank">Request A Product</a>
-            </p>
-
-            <p class="footer-company-about">
-                <a href="https://www.moutfitters.com/support/register-your-product/" target="_blank">Product Registration</a>
-            </p>
-            <p class="footer-company-about">
-                <a href="https://www.moutfitters.com/support/faqs/" target="_blank">FAQs</a>
-            </p>
-
-            <div class="footer-icons">
-
-                <a href="https://www.facebook.com/mobileoutfitterssenegal/" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com/mobileoutfitters_senegal/" target="_blank"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/mobileoutfitters" target="_blank"><i class="fa fa-linkedin"></i></a>
-                <a href="https://www.tiktok.com/@mobileoutfitters_senegal" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-            </div>
-
+        <div class="email-push">
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:mobilesenegal@gmail.com">mobilesenegal</a></p>
         </div>
 
-    </footer>
-    <!-- footer ends -->
+    </div>
+
+    <div class="footer-right">
+
+        <p class="footer-company-about">
+            <a href="original-matte.html#life-time">Lifetime Replacements</a>
+        </p>
+
+        <p class="footer-company-about">
+            <a href="https://www.moutfitters.com/support/request-a-product/" target="_blank">Request A Product</a>
+        </p>
+
+        <p class="footer-company-about">
+            <a href="https://www.moutfitters.com/support/register-your-product/" target="_blank">Product Registration</a>
+        </p>
+        <p class="footer-company-about">
+            <a href="https://www.moutfitters.com/support/faqs/" target="_blank">FAQs</a>
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="https://www.facebook.com/mobileoutfitterssenegal/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/mobileoutfitters_senegal/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/mobileoutfitters" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.tiktok.com/@mobileoutfitters_senegal" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+
+    </div>
+
+</footer>
+<!-- footer ends -->
 
 
 </body>
