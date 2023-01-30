@@ -363,6 +363,7 @@ body {
 .fusion-video video {
     height: 520px;
     width: auto;
+    margin-bottom: 50px;
 }
 
 .landing-text {
@@ -371,7 +372,7 @@ body {
     position: relative;
     font-size: 15px;
     transform: scale(1.1);
-    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .text-1 {
@@ -561,39 +562,49 @@ body {
 
 }
 
-/**gallery*/
-@media (max-width:800px) {
-    body .image-gallery {
-        grid-template-columns: repeat(2, 1fr);
-        width: 95%;
-
+  /**gallery*/
+  @media (max-width: 800px){
+    body .image-gallery{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      width: 100%;
     }
-}
+
+  }
 
 .image-gallery {
+    transform: scale(0.9);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    width: 90%;
-    height: 600px;
+    gap: 60px;
+    width: 95%;
+    height: auto;
     margin-inline: auto;
     margin-top: 100px;
-}
+    transition: all 0.5s ease;
 
+}
 .image-container {
     object-fit: contain;
-    background-color: #03b2e2;
     overflow: hidden;
+    transition: all 0.5s ease;
 
-}
+  }
 
 
-.image-container img {
+  .image-container img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
-}
+    object-fit: contain;
+    transition: all 0.5s ease;
 
+  }
+  .image-container img:hover{
+    transform: scale(1.2);
+    transition: all 0.8s ease;
+    filter: brightness(60%);
+  }
+  
 
 /**life time starts**/
 @media (max-width:800px) {
