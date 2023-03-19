@@ -1009,7 +1009,7 @@ body {
 }
 
 .image-mobile-2 img {
-  height: 185px;
+  height: 195px;
   width: auto;
   position: relative;
   top: 25px;
@@ -1180,7 +1180,7 @@ body {
 }
 
 .products-image-2 img {
-  width: 230px;
+  width: 200px;
   height: auto;
   transition: all 0.7s ease;
 }
